@@ -2,7 +2,7 @@
 //10/25/2022
 //Reverse It
 //The user will input a message / number and we will output the reverse.
-//Peer Reviewed by:
+//Peer Reviewed by: Samuel Laguna: I ran the code it works good. All the inputs work correctly. This code is all good
 
 
 using Microsoft.AspNetCore.Mvc;
@@ -25,6 +25,6 @@ public class ReverseItController : ControllerBase
         {
             revInput = revInput + input[i];
         }
-        return $"This program will let the user input a string an output the reverse. \nFor Example: \n{input} | {revInput}";
+        return $"This program will let the user input a string an output the reverse.  \n{input} | {revInput}";
     }
 }
